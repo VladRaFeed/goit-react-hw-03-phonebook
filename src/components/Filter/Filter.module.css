@@ -1,0 +1,21 @@
+.filter_wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter_label {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.filter_input {
+    padding-left: 15px;
+    font-size: 28px;
+    width: 900px;
+    height: 90px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 22px 0px rgba(0, 0, 0, 0.05);
+}

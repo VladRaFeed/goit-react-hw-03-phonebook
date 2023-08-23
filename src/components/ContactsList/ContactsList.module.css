@@ -1,0 +1,43 @@
+.contacts_section {
+    width: 500px;
+}
+
+.contacts_title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts_list {
+    margin-bottom: 20px;
+}
+
+.contact_item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contact_name {
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.contact_delete {
+    color: #fff;
+    background-color: #9fa19f;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+}
+
+.contact_delete:hover {
+    background-color: #0BBBC7;
+}
